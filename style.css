@@ -9,3 +9,61 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+
+#list-intro-list.active {
+  background-color: #5cb85c;
+}
+
+#list-what-list.active {
+  background-color: #5cb85c;
+}
+
+#list-java-list.active {
+  background-color: #5cb85c;
+}
+
+#list-hello-list.active {
+  background-color: #5cb85c;
+}
+
+#list-var-list.active {
+  background-color: #5cb85c;
+}
+
+#list-decVar-list.active {
+  background-color: #5cb85c;
+}
+
+#list-varScope-list.active {
+  background-color: #5cb85c;
+}
+
+#list-global-list.active {
+  background-color: #5cb85c;
+}
+
+#list-const-list.active {
+  background-color: #5cb85c;
+}
+
+#list-data-list.active {
+  background-color: #5cb85c;
+}
+
+#list-ifElse-list.active {
+  background-color: #5cb85c;
+}
+
+#list-while-list.active {
+  background-color: #5cb85c;
+}
+
+#list-funcs-list.active {
+  background-color: #5cb85c;
+}
+
+#list-Reference-list.active {
+  background-color: #5cb85c;
+}
+
