@@ -15,6 +15,27 @@
         background-color: rgb(233, 233, 233);
       }
 
+      background-gray {
+        background-color: #1A2228;
+      }
+
+      div.a {
+      margin-left: 25px;
+      }
+    
+      div.b {
+      text-indent: -2em;
+      }
+    
+      div.c {
+      text-indent: 30%;
+      }
+
+      div.d {
+      margin-bottom: 25px;
+      }
+
+
     </style>
 
     <!-- Style.CSS link in html head -->
@@ -71,22 +92,25 @@
               </button>
             -->
             <div class="container-fluid">
-              <div class="bg-dark text-white text-bold">
-                <button class="btn" onclick="copyContent()">
-                  <strong>copy code</strong></button>
+              <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <button class="btn" onclick="copyContent()"><strong>copy code</strong>
+                </button>
                 <br>
                 <br>
-                body {<br>
-                      background-color: #d0e4fe;<br>}<br>h1 {<br>
-                      color: orange;<br>
-                      text-align: center;<br>}<br>p {<br>
-                      font-family: "Times New Roman";<br>
-                      font-size: 20px;<br>}
+
+                <div class="a" id="myText">
+                  body {<br>
+                        background-color: #d0e4fe;<br>}<br>h1 {<br>
+                        color: orange;<br>
+                        text-align: center;<br>}<br>p {<br>
+                        font-family: "Times New Roman";<br>
+                        font-size: 20px;<br>}
+                </div>
+                
               </div>
             </div>
               
             <br>
-
             
               <h2>1.2 Install Virtual Environment type: Venv</h2>
               <div class="container-fluid">
