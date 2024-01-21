@@ -20,6 +20,12 @@ h2 {
 
 }
 
+/* this is side bar navigation scroll function */
+#list-tab {
+  max-height: calc(100vh - 9rem);
+  overflow-y: auto;
+}
+
 #list-intro-list.active {
   background-color: #5cb85c;
 }
