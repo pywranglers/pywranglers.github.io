@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,27 +8,57 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- Vanilla CSS -->
+    <style>
+      
+      background-gray {
+        background-color: rgb(233, 233, 233);
+      }
+
+      background-gray {
+        background-color: #1A2228;
+      }
+
+      div.a {
+      margin-left: 25px;
+      }
+    
+      div.b {
+      text-indent: -2em;
+      }
+    
+      div.c {
+      text-indent: 30%;
+      }
+
+      div.d {
+      margin-bottom: 25px;
+      }
+
+      div.e {
+      margin-right: 0px;
+    }
+
+    </style>
+
     <!-- Style.CSS link in html head -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="gdscript.css">
 
-    <!-- Title of Webpage -->
-    <title>Py-Wranglers Docx</title>
+    <title>DJANGO DOCX</title>
   </head>
-
   <body>
-    <!-- Entire Webpage inside this container -->
     <div class="container-fluid">
       
       <!-- navigation bar -->
       <nav class="nav nav-tabs navbar-light bg-white justify-content-end">
         <li class="nav-item">
-          <a class="nav-link text-dark font-weight-normal" href="index.html">Django</a>
+          <a class="nav-link text-dark font-weight-normal" href="/index.html">Django</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-dark font-weight-normal" href="htmls/gdscript.html">GDScript</a>
+          <a class="nav-link active text-dark font-weight-normal" href="gdscript.html">GDScript</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link bg-success text-white font-weight-bold">Documentation by Py-Wranglers</a>
+          <a class="nav-link bg-primary text-white font-weight-bold">Documentation by Py-Wranglers</a>
         </li>
     </nav><br><hr style="height:2px;border-width:0;color:gray;background-color:gray">
     <!-- navigation bar ends here -->
@@ -63,22 +92,19 @@
         </div>
         <!-- sidebar navigation bar ends here -->
 
-        <!-- Content Area -->
         <div class="col-8" style="background-color:#e4e4e4;">
           <div class="tab-content" id="nav-tabContent">
 
             <!-- 1.0 Installations starts here -->
             <div class="tab-pane fade show active" id="list-intro" role="tabpanel" aria-labelledby="list-intro-list"><!-- div for tab Installations starts here -->
               <h2>1.1 Install Python</h2>
-              <br>
-              <div class="bulletpoints">
-                <li>Go to Chrome Browser</li>
-                <li>Search download Python</li>
-                <li>Download version & bit version of Python you seek e.g. Python 3.12.1 32bit</li>
-                <li>Once download, Install and Add to Path for global use</li>
-                <li>To check If Python is Installed, go to Terminal and type</li>
-              </div>
-
+              <br>  
+              <li>Go to Chrome Browser</li>
+              <li>Search download Python</li>
+              <li>Download version & bit version of Python you seek e.g. Python 3.12.1 32bit</li>
+              <li>Once download, Install and Add to Path for global use</li>
+              <li>To check If Python is Installed, go to Terminal and type</li>
+              
               <!-- code box -->
               <br>
               <div class="container-fluid">
@@ -121,7 +147,7 @@
               <br>
               <!-- code box ends here -->
 
-            </div>
+            </div><!-- div for tab Installations ends here -->
             <!-- 1.0 Installations ends here -->
 
 
@@ -357,8 +383,6 @@
           </div>
         Hide ends here-->
         </div>
-        <!-- Content area ends here -->
-      
       </div>
       </div>
       <br>
@@ -383,5 +407,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </body>
-
 </html>
