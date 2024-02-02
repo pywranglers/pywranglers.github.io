@@ -68,7 +68,8 @@
           <div class="tab-content" id="nav-tabContent">
 
             <!-- 1.0 Installations starts here -->
-            <div class="tab-pane fade show active" id="list-intro" role="tabpanel" aria-labelledby="list-intro-list"><!-- div for tab Installations starts here -->
+            <div class="tab-pane fade show active" id="list-intro" role="tabpanel" aria-labelledby="list-intro-list">
+
               <h2>1.1 Install Python</h2>
               <br>
               <div class="bulletpoints">
@@ -121,25 +122,27 @@
               <br>
               <!-- code box ends here -->
 
-            </div>
-            <!-- 1.0 Installations ends here -->
-
-
-            <!-- 2.0 Building (Dev) the Website -->
-            <div class="tab-pane fade" id="list-what" role="tabpanel" aria-labelledby="list-what-list">
-              <h2>1.2 Install Virtual Environment type: Venv</h2>
+              <h2>1.3 Install Django</h2>
               <br>
+              <div class="bulletpoints">
+                <li>to install django in Virtual Environment</li>
+                <li>type in pip install django or</li>
+                <li>pip install django== and the version</li>
+                <li>to check if django is installed type in django-admin --version</li>
+
+              </div>
+
               <!-- code box -->
               <br>
               <div class="container-fluid">
                 <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
                 <br>
                   <div class="a">
-                    py manage.py runserver
+                    pip install django or
                     <br>
-                    e.g
+                    pip install django==5.0
                     <br>
-                    py manage.py exit
+                    to check version django-admin --version
                     <br>
                     <br>
                   </div>
@@ -147,7 +150,232 @@
               </div>
               <br>
               <br>
-              <!-- code box ends here -->            
+              <!-- code box ends here -->
+
+              <h2>1.4 Creating django project</h2>
+              <br>
+              <div class="bulletpoints">
+                <li>To create a django project type in django-admin startproject and the website</li>
+                <li>e.g django-admin startproject Cartoon_News_Website</li>
+                <li>open sublime text and go on add folder to project and save in your Cartoon New Website folder</li>
+                <li>Then install database into your django project by typing py manage.py migrate</li>
+                <li>And at last run your website by typing py manage.py runserver</li>
+                <li>And view your website on chrome browser</li>
+              </div>
+
+              <!-- code box -->
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                    Django-Admin startproject
+                    <br>
+                    py manage.py migrate
+                    <br>
+                    py manage.py runserver
+                    <br>
+                    <br>
+                  </div>
+                </div>  
+              </div>
+              <br>
+              <br>
+            </div>
+            <!-- code box ends here -->
+            <!-- 1.0 Installations ends here -->
+
+
+            <!-- 2.0 Building (Dev) the Website -->
+            <div class="tab-pane fade" id="list-what" role="tabpanel" aria-labelledby="list-what-list">
+              <h2>2.0 Building(Dev)Website</h2>
+
+              <br>
+              <div class="bulletpoints">
+                <li>In this section we are going to learn how to creat HTML web pages and wire them to the (view)</li>
+                <li>So that people can see the web pages in the chrome browser</li>
+              </div>
+
+              <!-- code box -->
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                    homepage 1.html
+                    <br>
+                    aboutus 2.html
+                    <br>
+                    contactus 3.html
+                    <br>
+                    <br>
+                  </div>
+                </div>  
+                       <!-- code box ends here -->  
+              </div>                           
+              
+              <br>
+              <h2>2.1 Creating Django APP</h2>
+              <br>
+              <div class="bulletpoints">
+                <li>To Create django app you type</li>
+                <li>in the terminal django-admin startapp and the name of the up e.g apple</li>
+                <li>Now that we have created our django app we need to register it in (settings.py file)</li>
+                <li>In the (setting.py file)scrow to the(installed apps section)and type in the name of your django app in {single inverted cormers}e.g 'Apple',</li>
+              </div>  
+
+              <!-- code box -->
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                    Django-Ddmin startapp 'Apple',
+                    <br>
+                    Settings.py file
+                    <br>
+                    Installed App Section
+                    <br>
+                    <br>
+                  </div>
+                </div>  
+              </div>
+              <br>
+              <br>
+              <!-- code box ends here -->
+
+              <h2>2.2 Creating HTML Templates</h2>
+              <br>
+              <div class="bulletpoints">
+                <li>We first have to creat a new folder in the django apps folder and name the folder templates in small letters</li>
+                <li>In the templates folder create three HTML files insmall letters</li>
+              </div>  
+
+              <!-- code box -->
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                    homepage.HTML
+                    <br>
+                    aboutus.HTML
+                    <br>
+                    contactus.HTML
+                    <br>
+                    <br>
+                  </div>
+                </div>  
+              </div>
+              <br>
+              <br>
+              <!-- code box ends here -->
+
+              <h2>2.3 Waring HTML file to the Django to the tv sreen</h2>
+              <br>
+              <div class="bulletpoints">
+                <li>Step.1. is the views.py files making http request to show the HTML file on the tv screen</li>
+                <li>The http request is in the following codes</li>
+              </div>  
+
+               <!-- code box -->
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                    from django.shortcuts import render
+                    <br>
+                    from django.http import HttResponse
+                    <br>
+                    from django.template import loader
+                    <br>
+                    <br>
+                  </div>
+                </div>  
+              </div>
+              <br>
+              <br>
+              <!-- code box ends here -->
+
+              <h2>2.3  Waring HTML file to the Django to the tv sreen</h2>
+              <br>
+              <div class="bulletpoints">
+                <li>step.3. is to add codes to the first urls file found in the website system folder,the codes as follows</li>
+              </div>  
+
+              <!-- code box -->   
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                    from django.contrib import admin
+                    <br>
+                    from django.urls import include, path
+                    <br>
+                    <br>
+                  </div>
+                </div>  
+              </div>
+              <br>
+              <br>
+              <!-- code box ends here -->
+
+              <h2>2.3  Waring HTML file to the Django to the tv sreen</h2>
+              <br>
+              <div class="bulletpoints">
+                <li>step.3. is to create another urls.py this time in the app folder and the codes as follows</li>
+              </div>  
+
+              <!-- code box -->
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                  from django.urls import path
+                  <br>
+                  from.import views
+                  <br>
+                  <br>
+                  </div>
+                </div>  
+              </div>
+              <br>
+              <br>
+              <!-- code box ends here -->              
+
+              <h2>2.4.1 Editing the templates</h2><!-- where the drama begins -->
+              <br>
+              <div class="bulletpoints">
+                <li>They are to ways we are going to install Bootstrap</li>
+                <li>(1)by using (CDN) (2)by downloading{source file}and copying them into static folder of your django project</li>
+                <li>method 1 which is using (CDN)is for learning and practise purposes only</li>
+                <li>method 2 which is downloading (source code file)is used on the final stage of deproying your website</li>
+                <li>stap by step of how to install Bootstraps(CDN)into your django project go to Bootstrap 5 website and on the introduction turb copy the quick start code box 2</li>
+                <li>that includes [css] and [js] (CDN) Links</li>
+                <li>paste the [css] and [js] links on any HTML page in your django project</li>
+
+              <!-- code box -->
+              <br>
+              <div class="container-fluid">
+                <div class="text-white" style= "font-weight:normal; background-color:#1A2228;">
+                <br>
+                  <div class="a">
+                    Bootstrap 5
+                    <br>
+                    CDN
+                    <br>
+                    Dowloading source code file
+                    <br>
+                    <br>
+                  </div>
+                </div>  
+              </div>
+              <br>
+              <br>
+              <!-- code box ends here -->
             </div>
             <!-- 2.0 Building (Dev) the Website ends here -->
 
