@@ -2,6 +2,4 @@
 
 A basic technical documentation website made using HTML, CSS and Bootstrap. You can have a look at the website [here](https://codepen.io/Justdvnsh2208/full/YJqeLB/) or [here](https://technical-docs.glitch.me/)
 
-## RICHARD IS OFFICIALLY ALL SETUP
-## BENARD IS OFFICIALLY ALL SETUP
-## MARK IS OFFICALLY ALL SETUP 
+## NICE TEAM FOR US
