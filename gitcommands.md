@@ -6,13 +6,9 @@ The Git command to clone a Remote Repository to local Repository
 -`e.g. git clone -b dev git@github.com:pywranglers/pywranglers.github.io.git`
 -`e.g. git clone -b release git@github.com:pywranglers/pywranglers.github.io.git`
 
-The Git command to initalize a local Repository to Github
--`git init` - initiate a repository
-
-The Git command to configure an author of Repository
--`git config user.name "<John Doe>"`
--`git config user.email "<john@doe.org>"`
-
+The Git command to create new branch 
+-`git checkout -b <MyNewBranch>`
+ 
 The Git command to check the status of repository / staging area / working directory
 -`git status`
 
@@ -30,3 +26,13 @@ The Git push commands
 -e.g.`git push origin dev`
 -e.g.`git push origin release`
 -e.g.`git push origin practice` 
+
+
+## OTHER GIT COMMANDS
+
+The Git command to initalize a local Repository to Github
+-`git init` - initiate a repository
+
+The Git command to configure an author of Repository
+-`git config user.name "<John Doe>"`
+-`git config user.email "<john@doe.org>"`
